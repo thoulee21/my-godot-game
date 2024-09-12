@@ -19,7 +19,7 @@ mob_scene = ExtResource("2_6xjtu")
 metadata/_edit_group_ = true
 
 [node name="MobTimer" type="Timer" parent="."]
-wait_time = 0.5
+wait_time = 0.3
 
 [node name="ScoreTimer" type="Timer" parent="."]
 
