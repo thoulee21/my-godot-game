@@ -16,10 +16,6 @@ config/features=PackedStringArray("4.3", "Forward Plus")
 boot_splash/show_image=false
 config/icon="res://icon.svg"
 
-[autoload]
-
-Main="*res://main.gd"
-
 [display]
 
 window/size/mode=2
@@ -32,6 +28,7 @@ movie_writer/fps=30
 
 [input_devices]
 
+pointing/emulate_touch_from_mouse=true
 pointing/android/enable_long_press_as_right_click=true
 pointing/android/enable_pan_and_scale_gestures=true
 
